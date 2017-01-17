@@ -1,4 +1,4 @@
-# SYNPROBE
+# synprobe
 synprobe.py is a simple network reconnaissance tool developed using Scapy framework.
 In the script, I probe a given port with a SYN packet to see if the port is open or
 not. 
@@ -30,8 +30,6 @@ root@kali:~# python synprobe.py -h
 root@kali:~# python synprobe.py 192.168.1.100 -p 22
 
 ## Scan common TCP ports of 192.168.1.100
-## I got top 300 commonly used TCP ports from
-## https://svn.nmap.org/nmap/nmap-services
 root@kali:~# python synprobe.py 192.168.1.100
 
 ## Scan a range of ports
