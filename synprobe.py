@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 """
 Since scapy does not use Linux Kernel services, Linux Kernel might
 issue RST for SYN packets created by Scapy. To supress RST packets 
